@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.391c14e2.css",
-    "main.js": "/static/js/main.5e4af554.js",
-    "static/js/787.d3befce1.chunk.js": "/static/js/787.d3befce1.chunk.js",
-    "index.html": "/index.html",
-    "main.391c14e2.css.map": "/static/css/main.391c14e2.css.map",
-    "main.5e4af554.js.map": "/static/js/main.5e4af554.js.map",
-    "787.d3befce1.chunk.js.map": "/static/js/787.d3befce1.chunk.js.map"
+    "main.css": "/Khalidshah12.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/Khalidshah12.github.io/static/js/main.50ffac89.js",
+    "static/js/787.d3befce1.chunk.js": "/Khalidshah12.github.io/static/js/787.d3befce1.chunk.js",
+    "static/media/logo.svg": "/Khalidshah12.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Khalidshah12.github.io/index.html",
+    "main.073c9b0a.css.map": "/Khalidshah12.github.io/static/css/main.073c9b0a.css.map",
+    "main.50ffac89.js.map": "/Khalidshah12.github.io/static/js/main.50ffac89.js.map",
+    "787.d3befce1.chunk.js.map": "/Khalidshah12.github.io/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.391c14e2.css",
-    "static/js/main.5e4af554.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.50ffac89.js"
   ]
 }
