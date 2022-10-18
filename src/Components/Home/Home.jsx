@@ -18,7 +18,7 @@ export default function Home() {
                         </Box> */}
                         <Heading id={style.myName}><span>Hey,</span><br /> I am Khalid Shah</Heading>
                         <Heading id={style.title}>Full Stack Web Developer</Heading>
-                        <Heading id={style.detail}>I am a Computer Science graduate with a penchant for both Frontend & Backend. I am passionate about enhancing user experience and maximizing user interface.I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding.Strong creative and analytical skills. </Heading>
+                        <Heading id={style.detail}>I am passionate about enhancing user experience and maximizing user interface. I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding. Strong creative and analytical skills. </Heading>
                     </Box>
                 </Flex>
             </VStack>
