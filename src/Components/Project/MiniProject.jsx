@@ -17,7 +17,7 @@ export default function MiniProject() {
             <div data-aos="fade-right"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://clinquant-lily-6a6bb2.netlify.app/5.png' alt='barsu' />
+                    <Image src='Images/youtubeImg.png' alt='youtube image' />
                 </Box>
                 <Box className={style.major_project_detailsDiv}>
                     <Heading className={style.major_project_detailsDiv_Heading}>YOUTUBE(Cloned)</Heading>
@@ -43,14 +43,14 @@ export default function MiniProject() {
                     </Box>
                 </Box>
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://clinquant-lily-6a6bb2.netlify.app/4.png' alt='barsu' />
+                    <Image src='Images/hotstarImg.png' alt='hotstar image' />
                 </Box>
             </div>
 
             <div data-aos="fade-right"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://sunny-travesseiro-51b751.netlify.app/8.png' alt='barsu' />
+                    <Image src='Images/weatherImg.png' alt='weather image' />
                 </Box>
                 <Box className={style.major_project_detailsDiv}>
                     <Heading className={style.major_project_detailsDiv_Heading}>WEATHER APP</Heading>

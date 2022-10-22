@@ -57,29 +57,30 @@ export default function Navbar() {
                             rightIcon={< HamburgerIcon />}
                         />
                         <MenuList color='#243D25'
-                            backgroundColor="#FEF5ED" >
+                            backgroundColor="#FEF5ED"
+                        >
                             <Link smooth to='#Home'>
-                                <MenuItem fontSize='25px' fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Home
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Skills'>
-                                <MenuItem fontSize='25px' fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Skills
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Projects'>
-                                <MenuItem fontSize='25px' fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Projects
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#About'>
-                                <MenuItem fontSize='25px' fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     About
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Contact'>
-                                <MenuItem fontSize='25px' fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Contact
                                 </MenuItem>
                             </Link>

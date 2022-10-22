@@ -1,6 +1,6 @@
 import { Box, Heading } from '@chakra-ui/react'
 import React from 'react'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaPhone, FaTwitter, FaGofore } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaGofore, FaPhoneAlt } from 'react-icons/fa'
 import style from './Footer.module.css'
 export default function Footer() {
     return (
@@ -14,7 +14,7 @@ export default function Footer() {
                 </Box>
 
                 <Box display='flex' justifyContent='center' alignItems='center' marginTop='20px'>
-                    <FaPhone />
+                    <FaPhoneAlt />
                     &nbsp; <p>7507073067</p>
                 </Box>
             </Box>

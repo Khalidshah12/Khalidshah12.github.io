@@ -17,7 +17,7 @@ export default function MajorProject() {
             <div data-aos="fade-right"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://musical-kulfi-8ddfaa.netlify.app/10.png' alt='Khalid' />
+                    <Image src='Images/lystImg.png' alt='lyst image' />
                 </Box>
                 <Box className={style.major_project_detailsDiv}>
                     <Heading className={style.major_project_detailsDiv_Heading}>LYST(Cloned)</Heading>
@@ -43,14 +43,14 @@ export default function MajorProject() {
                     </Box>
                 </Box>
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://incredible-mandazi-d5d5d9.netlify.app/12.png' alt='Khalid' />
+                    <Image src='Images/bigbasketImg.png' alt='big basket image' />
                 </Box>
             </div>
 
             <div data-aos="fade-right"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://clinquant-lily-6a6bb2.netlify.app/6.png' alt='Khalid' />
+                    <Image src='Images/supersaleImg.png' alt='super sale image' />
                 </Box>
                 <Box className={style.major_project_detailsDiv}>
                     <Heading className={style.major_project_detailsDiv_Heading}>SUPER SALE</Heading>

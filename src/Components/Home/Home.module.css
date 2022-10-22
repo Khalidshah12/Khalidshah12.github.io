@@ -135,6 +135,8 @@
 
   #myImg {
     margin: auto;
+    width: 320px;
+    height: 380px;
   }
 
   #title {
