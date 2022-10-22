@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <VStack id={style.home} >
                 <Flex alignItems={isMediumScreen ? "end" : "start"} flexDirection={isSmallScreen ? "row" : "column"} >
-                    <Image id={style.myImg} src='https://clinquant-lily-6a6bb2.netlify.app/Khamlu.jpeg' alt='khalid Img' />
+                    <Image id={style.myImg} src='KhalidImg.jpeg' alt='khalid Img' />
                     <Box id={style.myDetailsDiv} >
                         {/* <Box w='100%' display="flex" justifyContent="end">
                         </Box> */}

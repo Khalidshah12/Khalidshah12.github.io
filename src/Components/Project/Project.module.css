@@ -1,5 +1,6 @@
 #projects {
     text-align: center;
+    width: 100%;
 }
 
 #majorMain {
@@ -114,6 +115,7 @@
 
     .major_project_detailsDi_btnDiv {
         width: 80%;
+        padding-bottom: 20px;
     }
 
     .major_project_detailsDi_btnDiv>button:nth-child(2) {
@@ -160,12 +162,12 @@
 
     #minor_projectDivId {
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
     }
 
     #major_projectDivId {
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
     }
 
     .major_project_detailsDiv_Heading {
@@ -182,6 +184,7 @@
 
     .major_project_detailsDi_btnDiv {
         width: 80%;
+        
     }
 
     .major_project_detailsDi_btnDiv>button {

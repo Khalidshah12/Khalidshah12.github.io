@@ -22,7 +22,7 @@ export default function About() {
             <Heading size='3xl' textAlign='center' color='#243D25'>ABOUT</Heading>
             <div data-aos="flip-left">
                 <Box id={style.aboutDiv} >
-                    <Image id={style.myImg} src='https://clinquant-lily-6a6bb2.netlify.app/Khamlu.jpeg' alt='khalid Img' />
+                    <Image id={style.myImg} src='KhalidImg.jpeg' alt='khalid Img' />
                     <Box id={style.aboutDetails}>
                         <p className={style.name}>I am Khalid Shah</p>
                         <p className={style.name}>Full Stack Web Developer</p>

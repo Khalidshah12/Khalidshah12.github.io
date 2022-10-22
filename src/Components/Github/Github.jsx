@@ -16,7 +16,7 @@ const GitHub = () => {
       <Heading textAlign='center' size='3xl' color='#243D25' mb='50px'>GITHUB CALENDAR</Heading>
 
       <Box
-        w="90%"
+        w="100%"
         style={github}
         className={style.github_Calender}
       >

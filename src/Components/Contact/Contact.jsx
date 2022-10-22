@@ -28,16 +28,16 @@ export default function Contact() {
                     <Box>
                         <form action="" onSubmit={SendMail}>
                             <Heading id={style.contact_head}>YOUR NAME (required)</Heading>
-                            <input className={style.input} placeholder='enter' name="name" />
+                            <input className={style.input} placeholder='Enter your Name' name="name" />
 
                             <Heading id={style.contact_head}>YOUR EMAIL (required)</Heading>
-                            <input className={style.input} placeholder='enter' name="user_email" />
+                            <input className={style.input} placeholder='Enter your Email' name="user_email" />
 
                             <Heading id={style.contact_head}>SUBJECT</Heading>
-                            <input className={style.input} placeholder='enter' name="subject" />
+                            <input className={style.input} placeholder='Enter your Subject' name="subject" />
 
                             <Heading id={style.contact_head}>YOUR MESSAGE</Heading>
-                            <input className={style.input1} placeholder='enter' name="message" />
+                            <input className={style.input1} placeholder='Enter you Message' name="message" />
                             <input id={style.btn} type="submit" value='Send' />
                         </form>
                     </Box>

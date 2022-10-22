@@ -6,7 +6,7 @@
     left: 2.5%;
     top: 30px;
     border-radius: 30px;
-    background-color:#243D25;
+    background-color: #243D25;
     margin: auto;
     color: #FEF5ED;
     display: flex;
@@ -16,7 +16,7 @@
 
 #nav1 {
     display: flex;
-    align-items:center;
+    align-items: center;
     height: 100%;
 }
 
@@ -63,6 +63,7 @@
 
     #nav {
         width: 90%;
+        left: 5%;
     }
 }
 
@@ -76,7 +77,7 @@
     }
 
     #nav {
-        width: 80%;
-        left: 3%;
+        width: 90%;
+        left: 5%;
     }
 }
