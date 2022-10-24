@@ -15,7 +15,7 @@ export default function Footer() {
 
                 <Box display='flex' justifyContent='center' alignItems='center' marginTop='20px'>
                     <FaPhoneAlt />
-                    &nbsp; <p>7507073067</p>
+                    &nbsp; <p>+91 7507073067</p>
                 </Box>
             </Box>
             <Box id={style.footer_mainDiv2}>

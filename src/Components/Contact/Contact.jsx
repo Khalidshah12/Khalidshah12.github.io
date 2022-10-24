@@ -48,7 +48,7 @@ export default function Contact() {
                         <p style={{ color: '#DAE2B6' }}>shah.khalidshah75@gmail.com</p>
                         <div className={style.line}></div>
                         <Heading id={style.contact_head1}>Phone</Heading>
-                        <p style={{ color: '#DAE2B6' }}>7507073067</p>
+                        <p style={{ color: '#DAE2B6' }}>+91 7507073067</p>
                         <div className={style.line}></div>
                         <Heading id={style.contact_head1}>On The Web</Heading>
                         <Box>
