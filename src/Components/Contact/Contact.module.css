@@ -77,6 +77,18 @@
         width: 90%;
         padding-bottom: 130px;
     }
+
+    #contact_leftDiv {
+        width: 50%;
+    }
+    
+    #contact_rightDiv {
+        width: 40%;
+    }
+
+    .line {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:759px) and (min-width:320px) {
@@ -114,7 +126,7 @@
     }
 
     .input {
-        width: 90%;
+        width: 80%;
         border-radius: 0px;
         background-color: #FEF5ED;
         border-radius: 5px;
@@ -123,7 +135,7 @@
     }
 
     .input1 {
-        width: 90%;
+        width: 80%;
         padding-top: 20px;
         padding-bottom: 150px;
         border-radius: 0px;
@@ -134,7 +146,7 @@
 
     .line {
         height: 2px;
-        width: 90%;
+        width: 85%;
         border: 2px solid #FEF5ED;
         margin-top: 20px;
         margin-bottom: 20px;

@@ -14,8 +14,6 @@ export default function Home() {
                 <Flex alignItems={isMediumScreen ? "end" : "start"} flexDirection={isSmallScreen ? "row" : "column"} >
                     <Image id={style.myImg} src='Images/KhalidImg.jpeg' alt='khalid Img' />
                     <Box id={style.myDetailsDiv} >
-                        {/* <Box w='100%' display="flex" justifyContent="end">
-                        </Box> */}
                         <Heading id={style.myName}><span>Hey,</span><br /> I am Khalid Shah</Heading>
                         <Heading id={style.title}>Full Stack Web Developer</Heading>
                         <Heading id={style.detail}>I am passionate about enhancing user experience and maximizing user interface. I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding. Strong creative and analytical skills. </Heading>

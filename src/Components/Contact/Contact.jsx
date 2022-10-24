@@ -38,6 +38,7 @@ export default function Contact() {
 
                             <Heading id={style.contact_head}>YOUR MESSAGE</Heading>
                             <input className={style.input1} placeholder='Enter you Message' name="message" />
+                            <br />
                             <input id={style.btn} type="submit" value='Send' />
                         </form>
                     </Box>

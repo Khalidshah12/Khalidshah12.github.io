@@ -102,7 +102,7 @@
 
   #myImg {
     border-radius: 30px;
-    width: 320px;
+    width: 50%;
     height: 380px;
     margin: auto;
   }
@@ -131,17 +131,19 @@
   #myName {
     margin-bottom: 12px;
     margin-top: 50px;
+    animation: none;
   }
 
   #myImg {
     margin: auto;
-    width: 320px;
+    width: 90%;
     height: 380px;
   }
 
   #title {
     margin-bottom: 30px;
     font-size: 24px;
+    animation: none;
   }
 
   #detail {
