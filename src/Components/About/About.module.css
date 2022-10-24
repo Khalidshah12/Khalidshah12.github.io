@@ -52,6 +52,14 @@
     cursor: pointer;
 }
 
+#resumeButton {
+    font-size: 22px;
+}
+
+.resumeDownloadLogo {
+    font-size: 22px;
+}
+
 @media screen and (max-width:1180px) and (min-width:760px) {
     #about_head {
         font-size: 3xl;
@@ -81,6 +89,14 @@
     .namep {
         margin-top: 20px;
         font-size: 20px;
+    }
+
+    #resumeButton {
+        font-size: 18px;
+    }
+
+    .resumeDownloadLogo {
+        font-size: 18px;
     }
 }
 
@@ -127,5 +143,13 @@
 
     #resumeDiv {
         margin-bottom: 20px;
+    }
+
+    #resumeButton {
+        font-size: 16px;
+    }
+
+    .resumeDownloadLogo {
+        font-size: 16px;
     }
 }

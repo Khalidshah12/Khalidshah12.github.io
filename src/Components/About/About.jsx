@@ -5,11 +5,6 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import { FaDownload } from "react-icons/fa";
 
-let resumeStyle = {
-    fontSize: "22px",
-    fontWeight: "bold",
-}
-
 export default function About() {
 
     useEffect(() => {
@@ -19,7 +14,7 @@ export default function About() {
     return (
         <Box>
             <div id='About' style={{ height: "100px" }}></div>
-            <Heading size='3xl' textAlign='center' color='#243D25'>ABOUT</Heading>
+            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color='#243D25'>ABOUT</Heading>
             <div data-aos="flip-left">
                 <Box id={style.aboutDiv} >
                     <Image id={style.myImg} src='Images/KhalidImg.jpeg' alt='khalid Img' />
@@ -32,8 +27,8 @@ export default function About() {
                             excellent team worker and am keen and very willing to
                             learn and develop new skills.</p>
                         <Box id={style.resumeDiv} >
-                            <a id={resumeStyle} href="./Khalid.pdf" download="Khalid Shah's Resume">Resume</a>
-                            &nbsp; <FaDownload />
+                            <a id={style.resumeButton} href="./Khalid.pdf" download="Khalid Shah's Resume">Resume</a>
+                            &nbsp; <FaDownload className={style.resumeDownloadLogo} />
                         </Box>
                     </Box>
                 </Box>

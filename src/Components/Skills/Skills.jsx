@@ -29,7 +29,7 @@ export default function Skills() {
         <div>
             <div id='Skills' style={{ height: "100px" }}></div>
             <div id={style.skill}>
-                <Heading size='3xl' textAlign='center' color='#243D25'>SKILLS</Heading>
+                <Heading  size={['2xl','2xl','2xl','3xl']} textAlign='center' color='#243D25'>SKILLS</Heading>
                 <div id={style.skillDiv}>
                     {skillsArray.map((skill) => (
                         <div key={skill.name} className={style.skill_in_div}>

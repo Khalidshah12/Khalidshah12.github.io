@@ -22,7 +22,7 @@ export default function Contact() {
     return (
         <Box id='Contact'>
             <div style={{ height: "100px" }}></div>
-            <Heading size='3xl' textAlign='center' color='#243D25' mb='30px'>CONTACT ME</Heading>
+            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color='#243D25' mb='30px'>CONTACT ME</Heading>
             <Box id={style.contact_mainDiv}>
                 <Box id={style.contact_leftDiv}>
                     <Box>
