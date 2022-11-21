@@ -14,6 +14,23 @@ export default function MajorProject({ colorMode }) {
     return (
         <div id={style.majorMain}>
             <Heading size={['lg', 'lg', 'lg', '2xl']} color={colorMode === 'light' ? "#243D25" : '#488A99'} textDecoration='underline'>Major Projects</Heading>
+
+            <div data-aos="fade-up"
+                className={style.major_projectDiv}  >
+                <Box className={style.major_project_imgDiv}>
+                    <Image src='Images/anthropologie.png' alt='anthropologie image' />
+                </Box>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
+                    <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>ANTHROPOLOGIE(Cloned)</Heading>
+                    <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Anthropologie is a unique, full-lifestyle shopping destination, with mostly exclusive assortment of clothing, shoes, accessories, beauty, furniture, home décor, garden, bridal, and more.</Heading>
+                    <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript | React</Heading>
+                    <Box className={style.major_project_detailsDi_btnDiv}>
+                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://github.com/Khalidshah12/anthropologie" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
+                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://anthropologie-vert.vercel.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
+                    </Box>
+                </Box>
+            </div>
+
             <div data-aos="fade-up"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>
@@ -47,21 +64,6 @@ export default function MajorProject({ colorMode }) {
                 </Box>
             </div>
 
-            <div data-aos="fade-up"
-                className={style.major_projectDiv}  >
-                <Box className={style.major_project_imgDiv}>
-                    <Image src='Images/anthropologie.png' alt='anthropologie image' />
-                </Box>
-                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
-                    <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>ANTHROPOLOGIE(Cloned)</Heading>
-                    <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Anthropologie is a unique, full-lifestyle shopping destination, with mostly exclusive assortment of clothing, shoes, accessories, beauty, furniture, home décor, garden, bridal, and more.</Heading>
-                    <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript | React</Heading>
-                    <Box className={style.major_project_detailsDi_btnDiv}>
-                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://github.com/Khalidshah12/anthropologie" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
-                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://anthropologie-vert.vercel.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
-                    </Box>
-                </Box>
-            </div>
         </div>
     )
 }
