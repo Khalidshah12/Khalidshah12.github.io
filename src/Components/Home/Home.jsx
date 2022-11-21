@@ -2,17 +2,16 @@ import { Flex, VStack, Image, Box, Heading, useMediaQuery } from '@chakra-ui/rea
 import React from 'react'
 import style from "./Home.module.css"
 
-
-export default function Home() {
+export default function Home({ colorMode }) {
 
     const [isSmallScreen] = useMediaQuery('(min-width: 680px)')
     const [isMediumScreen] = useMediaQuery('(min-width: 1180px)')
-
+    
     return (
         <div>
-            <VStack id={style.home} >
+            <VStack id={style.home} style={{ color: colorMode === 'light' ? "" : '#488A99' }}>
                 <Flex alignItems={isMediumScreen ? "end" : "start"} flexDirection={isSmallScreen ? "row" : "column"} >
-                    <Image id={style.myImg} src='Images/KhalidImg.jpeg' alt='khalid Img' />
+                    <Image id={style.myImg} src={colorMode === 'light' ? './Images/KhalidImg.jpeg' : './Images/KhalidImgBlue.png'} alt='khalid Img' />
                     <Box id={style.myDetailsDiv} >
                         <Heading id={style.myName}><span>Hey,</span><br /> I am Khalid Shah</Heading>
                         <Heading id={style.title}>Full Stack Web Developer</Heading>

@@ -4,7 +4,7 @@ import style from './Skills.module.css'
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-export default function Skills() {
+export default function Skills({ colorMode }) {
 
     const skillsArray = [
         { id: 1, name: "HTML", logo: "https://us.123rf.com/450wm/innayatsuk/innayatsuk2102/innayatsuk210200051/165304530-orange-3d-html5-icon-isolated-on-white-background-.jpg?ver=6" },
@@ -29,18 +29,18 @@ export default function Skills() {
         <div>
             <div id='Skills' style={{ height: "100px" }}></div>
             <div id={style.skill}>
-                <Heading  size={['2xl','2xl','2xl','3xl']} textAlign='center' color='#243D25'>SKILLS</Heading>
+                <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#243D25" : '#488A99'}>SKILLS</Heading>
                 <div id={style.skillDiv}>
                     {skillsArray.map((skill) => (
-                        <div key={skill.name} className={style.skill_in_div}>
+                        <div key={skill.name} className={style.skill_in_div} >
                             <div data-aos="zoom-in">
                                 <img className={style.logo} src={skill.logo} alt={skill.name} />
                             </div>
-                            <h3 className={style.skillH3}>{skill.name}</h3>
+                            <h3 className={style.skillH3} style={{ color: colorMode === 'light' ? "#243D25" : '#488A99' }}>{skill.name}</h3>
                         </div>
                     ))}
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

@@ -5,7 +5,7 @@ import { FaArrowRight, FaGithub } from 'react-icons/fa'
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-export default function MiniProject() {
+export default function MiniProject({ colorMode }) {
 
     useEffect(() => {
         Aos.init()
@@ -19,7 +19,7 @@ export default function MiniProject() {
                 <Box className={style.major_project_imgDiv}>
                     <Image src='Images/youtubeImg.png' alt='youtube image' />
                 </Box>
-                <Box className={style.major_project_detailsDiv}>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
                     <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']} >YOUTUBE(Cloned)</Heading>
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. </Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>
@@ -33,7 +33,7 @@ export default function MiniProject() {
             <div data-aos="fade-up"
                 id={style.minor_projectDivId}
                 className={style.major_projectDiv}  >
-                <Box className={style.major_project_detailsDiv}>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
                     <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']} >HOTSTAR(Cloned)</Heading>
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Hotstar for a streaming service carrying content from Disney Star's local networks, including films, television series, live sports, and original programming.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>
@@ -52,7 +52,7 @@ export default function MiniProject() {
                 <Box className={style.major_project_imgDiv}>
                     <Image src='Images/weatherImg.png' alt='weather image' />
                 </Box>
-                <Box className={style.major_project_detailsDiv}>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
                     <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']} >WEATHER APP</Heading>
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>

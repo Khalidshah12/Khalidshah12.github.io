@@ -1,6 +1,5 @@
 #about_head {
     font-size: 3xl;
-    color: #243D25;
     text-align: center;
 }
 
@@ -29,13 +28,12 @@
 
 .name {
     font-size: 25px;
-    color: #243D25;
     text-decoration: underline;
     font-weight: bold;
 }
 
 .namep {
-    color: #243D25;
+
     font-size: 25px;
 }
 
@@ -47,13 +45,16 @@
     width: fit-content;
     padding: 3px 10px 3px 10px;
     border-radius: 7px;
-    background-color: #243D25;
     margin-top: 20px;
     cursor: pointer;
 }
 
 #resumeButton {
     font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .resumeDownloadLogo {
@@ -63,7 +64,6 @@
 @media screen and (max-width:1180px) and (min-width:760px) {
     #about_head {
         font-size: 3xl;
-        color: #243D25;
         text-align: center;
     }
 
@@ -83,7 +83,7 @@
 
     .name {
         font-size: 22px;
-        color: #243D25;
+
     }
 
     .namep {
@@ -103,7 +103,6 @@
 @media screen and (max-width:759px) and (min-width:200px) {
     #about_head {
         font-size: 3xl;
-        color: #243D25;
         text-align: center;
     }
 
@@ -127,7 +126,6 @@
 
     .name {
         font-size: 18px;
-        color: #243D25;
         text-decoration: underline;
         font-weight: bold;
     }

@@ -8,3 +8,10 @@
 body {
     font-family: 'Exo', sans-serif;
 }
+
+#themeButton {
+    position: fixed;
+    top: 150px;
+    right: 30px;
+    z-index: 1;
+}

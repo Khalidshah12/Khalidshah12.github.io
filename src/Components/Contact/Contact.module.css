@@ -1,5 +1,4 @@
 #contact_mainDiv {
-    background-color: #889E81;
     width: 90%;
     margin: auto;
     display: flex;
@@ -81,7 +80,7 @@
     #contact_leftDiv {
         width: 50%;
     }
-    
+
     #contact_rightDiv {
         width: 40%;
     }

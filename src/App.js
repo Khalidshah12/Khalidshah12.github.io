@@ -1,3 +1,5 @@
+import { Button, useColorMode } from '@chakra-ui/react';
+import { FaMoon, FaSun } from 'react-icons/fa';
 import './App.css';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
@@ -10,17 +12,20 @@ import Skills from './Components/Skills/Skills';
 import Stat from "./Components/Stat/Stat"
 
 function App() {
+  const { colorMode, toggleColorMode } = useColorMode()
+
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Skills />
-      <Project />
-      <About />
-      <Stat />
-      <GitHub />
-      <Contact />
-      <Footer />
+    <div className="App" style={{ backgroundColor: colorMode === 'light' ? '#99A799' : "#121212" }}>
+      {/* <Button size='lg' id='themeButton' onClick={toggleColorMode} > {colorMode === 'light' ? <FaMoon fontSize='20px' /> : <FaSun fontSize='20px' />}</Button> */}
+      <Navbar colorMode={colorMode} />
+      <Home colorMode={colorMode} />
+      <Skills colorMode={colorMode} />
+      <Project colorMode={colorMode} />
+      <About colorMode={colorMode} />
+      <Stat colorMode={colorMode} />
+      <GitHub colorMode={colorMode} />
+      <Contact colorMode={colorMode} />
+      <Footer colorMode={colorMode} />
     </div>
   );
 }

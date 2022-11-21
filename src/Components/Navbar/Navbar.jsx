@@ -5,14 +5,14 @@ import { HashLink as Link } from 'react-router-hash-link';
 import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 
-export default function Navbar() {
+export default function Navbar({ colorMode }) {
     return (
         <div id='Home'>
-            <div id={styles.nav}>
+            <div id={styles.nav} style={{ backgroundColor: colorMode === 'light' ? "" : '#488A99' }}>
                 <Link smooth to='#Home'>
                     <img className={styles.logo} src='https://i.pinimg.com/originals/ce/56/74/ce567497ebe5f99a1ce2232275554b5b.gif' alt="logo" />
                 </Link>
-                <div id={styles.nav1}>
+                <div id={styles.nav1} >
                     <h3 className={styles.nav1H}>
                         <Link smooth to='#Home'>
                             Home
@@ -42,9 +42,11 @@ export default function Navbar() {
                             Contact
                         </Link>
                     </h3>
-                    <h3 style={{ display: "flex", alignItems: "center" }}>
-                        <a id={styles.anchor} href="./Khalid.pdf" download="Khalid Shah's Resume">Resume</a>
-                        &nbsp; <FaDownload />
+
+                    <h3>
+                        <a style={{ display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", wordSpacing: "-.4ch" }} id={styles.anchor} href="./Khalid_Shah_Resume.pdf" download="Khalid Shah's Resume">Resume
+                            &nbsp; <FaDownload />
+                        </a>
                     </h3>
                 </div>
 
@@ -57,8 +59,7 @@ export default function Navbar() {
                             rightIcon={< HamburgerIcon />}
                         />
                         <MenuList color='#243D25'
-                            backgroundColor="#FEF5ED"
-                        >
+                            backgroundColor="#FEF5ED" >
                             <Link smooth to='#Home'>
                                 <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Home
@@ -88,7 +89,6 @@ export default function Navbar() {
                     </Menu>
                 </div>
             </div>
-
         </div>
     )
 }
