@@ -29,14 +29,14 @@ export default function Skills({ colorMode }) {
         <div>
             <div id='Skills' style={{ height: "100px" }}></div>
             <div id={style.skill}>
-                <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#243D25" : '#488A99'}>SKILLS</Heading>
+                <Heading size={['2xl', '2xl', '2xl', '3xl']} fontWeight='500' textAlign='center' >SKILLS</Heading>
                 <div id={style.skillDiv}>
                     {skillsArray.map((skill) => (
-                        <div key={skill.name} className={style.skill_in_div} >
-                            <div data-aos="zoom-in">
+                        <div key={skill.name} className={style.skill_in_div} data-aos="zoom-out">
+                            <div >
                                 <img className={style.logo} src={skill.logo} alt={skill.name} />
                             </div>
-                            <h3 className={style.skillH3} style={{ color: colorMode === 'light' ? "#243D25" : '#488A99' }}>{skill.name}</h3>
+                            <h3 className={style.skillH3} >{skill.name}</h3>
                         </div>
                     ))}
                 </div>

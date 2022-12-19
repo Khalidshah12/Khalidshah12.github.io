@@ -1,8 +1,10 @@
 .App {
-    background: #99A799;
     width: 100%;
     position: absolute;
     top: 0;
+    font-family: cursive;
+    background-color: #c4d2c4;
+    color: #ab3a8b;
 }
 
 body {

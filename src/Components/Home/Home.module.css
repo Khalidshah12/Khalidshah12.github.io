@@ -2,7 +2,7 @@
   width: 80%;
   margin: auto;
   margin-top: 150px;
-  color: #243D25;
+  color: #ab3a8b;
 }
 
 #myImg {
@@ -26,7 +26,6 @@
 }
 
 #title {
-  margin-bottom: 30px;
   font-size: 22px;
   animation: type 3s steps(22);
   overflow: hidden;
@@ -45,20 +44,59 @@
 
 
 #detail {
+  width: 80%;
   line-height: 26px;
   font-size: 18px;
 }
 
+#resumeHomeDiv {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 30px;
+}
 
+#resumeDiv {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #FEF5ED;
+  width: fit-content;
+  height: fit-content;
+  padding: 3px 10px 3px 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#resumeButton {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.resumeDownloadLogo {
+  font-size: 22px;
+}
+
+#resumeDivSmall {
+  display: none;
+}
 
 @media screen and (max-width:860px) and (min-width:681px) {
   #home {
-    width: 90%;
+    width: 95%;
     margin-top: 150px;
   }
 
   #myDetailsDiv {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-left: 20px;
   }
@@ -81,7 +119,28 @@
 
   #detail {
     font-size: 18px;
+    width: 100%;
   }
+
+  #resumeDiv {
+    display: none;
+  }
+
+  #resumeDivSmall {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #FEF5ED;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  }
+
 }
 
 @media screen and (max-width:680px) and (min-width:481px) {
@@ -91,7 +150,7 @@
   }
 
   #myDetailsDiv {
-    width: 70%;
+    width: 90%;
     margin: auto;
   }
 
@@ -113,6 +172,25 @@
 
   #detail {
     font-size: 18px;
+  }
+
+  #resumeDiv {
+    display: none;
+  }
+
+  #resumeDivSmall {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #FEF5ED;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 }
 
@@ -149,6 +227,25 @@
   #detail {
     line-height: 24px;
     font-size: 18px;
+  }
+
+  #resumeDiv {
+    display: none;
+  }
+
+  #resumeDivSmall {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #FEF5ED;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
 }

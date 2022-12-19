@@ -1,6 +1,7 @@
 #projects {
     text-align: center;
     width: 100%;
+    color: #ab3a8b;
 }
 
 #majorMain {
@@ -12,8 +13,8 @@
 }
 
 .major_projectDiv {
-    background-color: #FEF5ED;
-    color: #243D25;
+    /* background-color: #c0effa; */
+    color: #ab3a8b;
     width: 95%;
     margin: auto;
     margin-top: 50px;
@@ -24,8 +25,8 @@
 }
 
 .minor_projectDiv {
-    background-color: #D3E4CD;
-    color: #243D25;
+    /* background-color: #7fd1e3; */
+    color: #ab3a8b;
     width: 95%;
     height: 380px;
     margin: auto;
@@ -141,7 +142,7 @@
     }
 
     .minor_projectDiv {
-        background-color: #D3E4CD;
+        /* background-color: #7fd1e3; */
         width: 90%;
         height: 500px;
         flex-direction: column;

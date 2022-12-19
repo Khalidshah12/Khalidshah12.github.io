@@ -8,20 +8,22 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 export default function Navbar({ colorMode }) {
     return (
         <div id='Home'>
-            <div id={styles.nav} style={{ backgroundColor: colorMode === 'light' ? "" : '#488A99' }}>
+            <div id={styles.nav}>
                 <Link smooth to='#Home'>
                     <img className={styles.logo} src='https://i.pinimg.com/originals/ce/56/74/ce567497ebe5f99a1ce2232275554b5b.gif' alt="logo" />
                 </Link>
+
+
                 <div id={styles.nav1} >
-                    <h3 className={styles.nav1H}>
+                    {/* <h3 className={styles.nav1H}>
                         <Link smooth to='#Home'>
                             Home
                         </Link>
-                    </h3>
+                    </h3> */}
 
                     <h3 className={styles.nav1H}>
-                        <Link smooth to='#Skills'>
-                            Skills
+                        <Link smooth to='#Home'>
+                            About
                         </Link>
                     </h3>
 
@@ -32,11 +34,10 @@ export default function Navbar({ colorMode }) {
                     </h3>
 
                     <h3 className={styles.nav1H}>
-                        <Link smooth to='#About'>
-                            About
+                        <Link smooth to='#Skills'>
+                            Skills
                         </Link>
                     </h3>
-
                     <h3 className={styles.nav1H}>
                         <Link smooth to='#Contact'>
                             Contact
@@ -44,7 +45,7 @@ export default function Navbar({ colorMode }) {
                     </h3>
 
                     <h3>
-                        <a style={{ display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", wordSpacing: "-.4ch" }} id={styles.anchor} href="./Khalid_Shah_Resume.pdf" download="Khalid Shah's Resume">Resume
+                        <a style={{ display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", wordSpacing: "-.4ch" }} id={styles.anchor} href="./Khalid_Shah_Resume.pdf" download="Khalid_Shah_Resume">Resume
                             &nbsp; <FaDownload />
                         </a>
                     </h3>
@@ -53,35 +54,30 @@ export default function Navbar({ colorMode }) {
                 <div id={styles.nav2}>
                     <Menu>
                         <MenuButton
-                            color='#243D25'
+
                             backgroundColor="#FEF5ED"
                             as={Button}
                             rightIcon={< HamburgerIcon />}
                         />
-                        <MenuList color='#243D25'
+                        <MenuList
                             backgroundColor="#FEF5ED" >
-                            <Link smooth to='#Home'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
-                                    Home
-                                </MenuItem>
-                            </Link>
-                            <Link smooth to='#Skills'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
-                                    Skills
-                                </MenuItem>
-                            </Link>
-                            <Link smooth to='#Projects'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
-                                    Projects
-                                </MenuItem>
-                            </Link>
                             <Link smooth to='#About'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' >
                                     About
                                 </MenuItem>
                             </Link>
+                            <Link smooth to='#Projects'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' >
+                                    Projects
+                                </MenuItem>
+                            </Link>
+                            <Link smooth to='#Skills'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' >
+                                    Skills
+                                </MenuItem>
+                            </Link>
                             <Link smooth to='#Contact'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' >
                                     Contact
                                 </MenuItem>
                             </Link>
