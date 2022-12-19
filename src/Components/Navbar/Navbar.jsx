@@ -45,7 +45,7 @@ export default function Navbar({ colorMode }) {
                     </h3>
 
                     <h3>
-                        <a style={{ display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", wordSpacing: "-.4ch" }} id={styles.anchor} href="./Khalid_Shah_Resume.pdf" download="Khalid_Shah_Resume">Resume
+                        <a style={{ display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", wordSpacing: "-.4ch" }} id={styles.anchor} href="./Khalid_Shah_Resume.pdf" download="Khalid-Shah-Resume">Resume
                             &nbsp; <FaDownload />
                         </a>
                     </h3>

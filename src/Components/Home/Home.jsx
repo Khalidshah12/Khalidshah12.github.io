@@ -19,12 +19,12 @@ export default function Home({ colorMode }) {
                                 <Heading id={style.title}>Full Stack Web Developer</Heading>
                             </Box>
                             <Box id={style.resumeDiv} >
-                                <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid Shah's Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
+                                <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid-Shah-Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
                             </Box>
                         </Box>
                         <Heading id={style.detail}>I am passionate about enhancing user experience and maximizing user interface. I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding. Strong creative and analytical skills. </Heading>
                         <Box id={style.resumeDivSmall} >
-                            <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid Shah's Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
+                            <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid-Shah-Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
                         </Box>
                     </Box>
                     <Image id={style.myImg} src={colorMode === 'light' ? './Images/KhalidImg.png' : './Images/KhalidImgBlue.png'} alt='khalid Img' />
