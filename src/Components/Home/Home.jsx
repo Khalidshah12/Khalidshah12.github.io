@@ -16,13 +16,15 @@ export default function Home({ colorMode }) {
                         <Box id={style.resumeHomeDiv} display='flex' justifyContent='space-between' alignItems='end' w='80%' mb='30px'>
                             <Box>
                                 <Heading id={style.myName}><span>Hey,</span><br />This is Khalid Shah</Heading>
-                                <Heading id={style.title}>Full Stack Web Developer</Heading>
+                                <Heading id={style.title} fontWeight='600'>Full Stack Web Developer</Heading>
                             </Box>
                             <Box id={style.resumeDiv} >
                                 <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid-Shah-Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
                             </Box>
                         </Box>
-                        <Heading id={style.detail}>I am passionate about enhancing user experience and maximizing user interface. I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding. Strong creative and analytical skills. </Heading>
+                        <Heading id={style.detail} fontWeight='500'>An independent and self-motivated graduate with proven and tested negotiation. To best utilize the
+                            technical skills and soft skills by working in a challenging environment and intend to achieve respectably
+                            position in the field of software engineering.</Heading>
                         <Box id={style.resumeDivSmall} >
                             <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid-Shah-Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
                         </Box>

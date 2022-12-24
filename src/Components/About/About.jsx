@@ -22,10 +22,9 @@ export default function About({ colorMode }) {
                         <p className={style.name}>I am Khalid Shah</p>
                         <p className={style.name}>Full Stack Web Developer</p>
                         <p className={style.name}>I live in Bhusawal, Maharastra, India</p>
-                        <p className={style.namep}>I am a dedicated, organized and methodical
-                            individual. I have good interpersonal skills, am an
-                            excellent team worker and am keen and very willing to
-                            learn and develop new skills.</p>
+                        <p className={style.namep}>An independent and self-motivated graduate with proven and tested negotiation. To best utilize the
+                            technical skills and soft skills by working in a challenging environment and intend to achieve respectably
+                            position in the field of software engineering.</p>
                         <Box id={style.resumeDiv} backgroundColor={colorMode === 'light' ? "#1e5a68" : '#488A99'}>
                             <a id={style.resumeButton} href="./Khalid_Shah_Resume.pdf" download="Khalid Shah's Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
                         </Box>
