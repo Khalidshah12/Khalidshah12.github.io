@@ -15,24 +15,24 @@ const GitHub = ({ colorMode }) => {
 
   return (
     <div className={"#github"} >
-      <Heading textAlign='center' size={['2xl', '2xl', '2xl', '3xl']} color='#ab3a8b' fontWeight='500' mb='50px'>GITHUB CALENDAR</Heading>
+      <Heading textAlign='center' size={['2xl', '2xl', '2xl', '3xl']} color='#2b78a8' fontWeight='500' mb='50px'>GITHUB CALENDAR</Heading>
 
       <Box
         w="100%"
         style={github}
       >
         <GitHubCalendar
-          style={{ margin: "auto", color: '#ab3a8b' }}
+          style={{ margin: "auto", color: '#2b78a8' }}
           username="Khalidshah12"
           year={new Date().getFullYear()}
         />
       </Box>
       <Box display='flex' justifyContent='center' mt='40px' >
         <Box style={shadow} mr='30px'>
-          <Image src='https://github-readme-stats.vercel.app/api?username=Khalidshah12&title_color=ab3a8b&icon_color=CC5160&text_color=949CA5&bg_color=00000000&show_icons=true' />
+          <Image src='https://github-readme-stats.vercel.app/api?username=Khalidshah12&title_color=2b78a8&icon_color=CC5160&text_color=black&bg_color=00000000&show_icons=true' />
         </Box>
         <Box style={shadow}>
-          <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khalidshah12&title_color=ab3a8b&icon_color=CC5160&text_color=949CA5&bg_color=00000000&show_icons=true" />
+          <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khalidshah12&title_color=2b78a8&icon_color=CC5160&text_color=black&bg_color=00000000&show_icons=true" />
         </Box>
       </Box>
     </div>

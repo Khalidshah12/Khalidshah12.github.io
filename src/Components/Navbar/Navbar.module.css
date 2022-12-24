@@ -54,7 +54,7 @@
 @media screen and (max-width:1180px) and (min-width:760px) {
     #nav2 {
         display: block;
-        color: #ab3a8b;
+        color: #2b78a8;
     }
 
     #nav1 {
@@ -66,7 +66,7 @@
 @media screen and (max-width:759px) and (min-width:200px) {
     #nav2 {
         display: block;
-        color: #ab3a8b;
+        color: #2b78a8;
     }
 
     #nav1 {

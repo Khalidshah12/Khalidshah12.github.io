@@ -2,9 +2,10 @@
   width: 80%;
   margin: auto;
   margin-top: 150px;
-  color: #ab3a8b;
+  color: #2b78a8;
 }
-
+/* #ab3a8b
+#e96946 */
 #myImg {
   border-radius: 30px;
   width: 400px;
@@ -53,7 +54,7 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   margin-bottom: 30px;
 }
 

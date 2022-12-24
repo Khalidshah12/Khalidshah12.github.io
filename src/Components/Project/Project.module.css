@@ -1,7 +1,7 @@
 #projects {
     text-align: center;
     width: 100%;
-    color: #ab3a8b;
+    color: #2b78a8;
 }
 
 #majorMain {
@@ -14,7 +14,7 @@
 
 .major_projectDiv {
     /* background-color: #c0effa; */
-    color: #ab3a8b;
+    color: #2b78a8;
     width: 95%;
     margin: auto;
     margin-top: 50px;
@@ -26,7 +26,7 @@
 
 .minor_projectDiv {
     /* background-color: #7fd1e3; */
-    color: #ab3a8b;
+    color: #2b78a8;
     width: 95%;
     height: 380px;
     margin: auto;

@@ -32,7 +32,7 @@ export default function Contact({ colorMode }) {
     return (
         <Box id='Contact'>
             <div style={{ height: "100px" }}></div>
-            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' fontWeight='500' color='#ab3a8b' mb='30px'>CONTACT ME</Heading>
+            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' fontWeight='500' color='#2b78a8' mb='30px'>CONTACT ME</Heading>
             <Box id={style.contact_mainDiv}>
                 <Box id={style.contact_leftDiv}>
                     <Box>
@@ -64,10 +64,10 @@ export default function Contact({ colorMode }) {
                 <Box id={style.contact_rightDiv}>
                     <Box>
                         <Heading id={style.contact_head1}>E-Mail</Heading>
-                        <p style={{ color: '#ab3a8b' }}>shah.khalidshah75@gmail.com</p>
+                        <p style={{ color: '#2b78a8' }}>shah.khalidshah75@gmail.com</p>
                         <div className={style.line}></div>
                         <Heading id={style.contact_head1}>Phone</Heading>
-                        <p style={{ color: '#ab3a8b' }}>+91 7507073067</p>
+                        <p style={{ color: '#2b78a8' }}>+91 7507073067</p>
                         <div className={style.line}></div>
                         <Heading id={style.contact_head1}>On The Web</Heading>
                         <Box id={style.footer_aDiv}>
