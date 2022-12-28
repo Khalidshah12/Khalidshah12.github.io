@@ -1,32 +1,62 @@
-import { Box, Heading, Link } from '@chakra-ui/react'
+import { Box, Heading } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import style from "./Contact.module.css"
 import emailjs from "emailjs-com"
+import { useToast } from '@chakra-ui/react'
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
-export default function Contact({ colorMode }) {
+export default function Contact() {
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [subject, setSubject] = useState("")
     const [message, setMessage] = useState("")
+    const toast = useToast();
 
     const SendMail = (e) => {
         e.preventDefault()
-        emailjs.sendForm(
-            'service_43cu20v',
-            'template_3jz6tjn',
-            e.target,
-            '5oyqGqg7y027m0IG2')
-            .then((res) => {
-                console.log(res)
+        if (name && email && subject && message) {
+            emailjs.sendForm(
+                'service_43cu20v',
+                'template_3jz6tjn',
+                e.target,
+                '5oyqGqg7y027m0IG2')
+                .then((res) => {
+                    console.log(res)
+                    toast({
+                        title: 'Congratulations',
+                        description: "The message send successfully",
+                        status: 'success',
+                        duration: 2500,
+                        isClosable: true,
+                        position: 'top'
+                    })
+                    setName("")
+                    setEmail("")
+                    setSubject("")
+                    setMessage("")
+                })
+                .catch((err) => {
+                    console.log(err)
+                    toast({
+                        title: 'Error',
+                        description: "Something went wrong",
+                        status: 'error',
+                        duration: 2500,
+                        isClosable: true,
+                        position: 'top'
+                    })
+                });
+        } else {
+            toast({
+                title: 'Error',
+                description: "Something is missing",
+                status: 'error',
+                duration: 2500,
+                isClosable: true,
+                position: 'top'
             })
-            .catch((err) => {
-                console.log(err)
-            });
-        setName("")
-        setEmail("")
-        setSubject("")
-        setMessage("")
+        }
+
     }
 
     return (
