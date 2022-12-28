@@ -74,7 +74,7 @@ export default function Contact({ colorMode }) {
                             <a href='https://github.com/Khalidshah12' target='_blank' rel="noreferrer"><FaGithub color='#4078c0' /> </a>
                             <a href='https://www.linkedin.com/in/khalid-shah-0a6404231/' target='_blank' rel="noreferrer"><FaLinkedin color='#0A66C2' /></a>
                             <a href='https://www.instagram.com/mr__shah__02/' target='_blank' rel="noreferrer"> <FaInstagram color='#cd486b' /></a>
-                            <a href='https://www.instagram.com/mr__shah__02/' target='_blank' rel="noreferrer"><FaFacebook color='#3b5998' /></a>
+                            <a href='https://www.facebook.com/people/Khalid-Shah/100011190786716/' target='_blank' rel="noreferrer"><FaFacebook color='#3b5998' /></a>
                             <a href='https://twitter.com/Mr_shah_02' target='_blank' rel="noreferrer"><FaTwitter color='#00acee' /></a>
                         </Box>
                         <div className={style.line}></div>
