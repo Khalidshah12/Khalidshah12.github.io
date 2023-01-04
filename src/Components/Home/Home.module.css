@@ -216,8 +216,10 @@
   }
 
   #myImg {
-    margin: auto;
     width: 90%;
+    margin: auto;
+    margin-left: 10%;
+    /* border: 1px solid black ; */
     height: 350px;
   }
 
