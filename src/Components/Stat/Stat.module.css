@@ -94,4 +94,12 @@
         max-width: 100%;
         margin-bottom: 40px;
     }
+
+    .services_experience {
+        margin-bottom: 10px;
+    }
+
+    .experiences {
+        margin-bottom: 0px;
+    }
 }

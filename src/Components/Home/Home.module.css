@@ -4,6 +4,7 @@
   margin-top: 150px;
   color: #2b78a8;
 }
+
 /* #ab3a8b
 #e96946 */
 #myImg {
@@ -199,7 +200,7 @@
 @media screen and (max-width:480px) and (min-width:320px) {
   #home {
     width: 95%;
-    margin-top: 130px;
+    margin-top: 100px;
   }
 
   #myDetailsDiv {
@@ -209,24 +210,27 @@
   }
 
   #myName {
-    margin-bottom: 12px;
-    margin-top: 50px;
+    margin-bottom: 1px;
+    margin-top: 20px;
     animation: none;
   }
 
   #myImg {
     margin: auto;
     width: 90%;
-    height: 380px;
+    height: 350px;
   }
 
   #title {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-size: 24px;
     animation: none;
   }
 
   #detail {
+    width: 100%;
+    /* margin: auto; */
+    text-align: justify;
     line-height: 24px;
     font-size: 18px;
   }
@@ -237,6 +241,7 @@
 
   #resumeDivSmall {
     display: flex;
+    margin: auto;
     align-items: center;
     font-size: 22px;
     color: #FEF5ED;

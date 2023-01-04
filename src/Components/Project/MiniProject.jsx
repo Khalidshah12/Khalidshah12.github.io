@@ -13,7 +13,7 @@ export default function MiniProject({ colorMode }) {
 
     return (
         <div id={style.majorMain}>
-            <Heading size={['lg', 'lg', 'lg', '2xl']} fontWeight='500' textDecoration='underline'>Minor Projects</Heading>
+            <Heading w='90%' m='auto' size={['lg', 'lg', 'lg', '2xl']} fontWeight='500' textDecoration='underline'>Minor Projects</Heading>
             <div data-aos="fade-up"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>

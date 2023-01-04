@@ -13,7 +13,7 @@ export default function MajorProject({ colorMode }) {
 
     return (
         <div id={style.majorMain}>
-            <Heading size={['lg', 'lg', 'lg', '2xl']} fontWeight='500' textDecoration='underline'>Major Projects</Heading>
+            <Heading w='90%' m='auto' size={['lg', 'lg', 'lg', '2xl']} fontWeight='500' textDecoration='underline'>Major Projects</Heading>
 
             <div data-aos="fade-up"
                 className={style.major_projectDiv}

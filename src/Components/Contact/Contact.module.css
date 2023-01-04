@@ -140,7 +140,7 @@
     }
 
     .input {
-        width: 80%;
+        width: 100%;
         border-radius: 0px;
         background-color: #FEF5ED;
         border-radius: 5px;
@@ -149,7 +149,7 @@
     }
 
     .input1 {
-        width: 80%;
+        width: 100%;
         padding-top: 20px;
         padding-bottom: 150px;
         border-radius: 0px;
@@ -160,7 +160,7 @@
 
     .line {
         height: 2px;
-        width: 85%;
+        width: 100%;
         border: 2px solid #FEF5ED;
         margin-top: 20px;
         margin-bottom: 20px;
