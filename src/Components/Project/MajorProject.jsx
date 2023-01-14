@@ -43,7 +43,7 @@ export default function MajorProject({ colorMode }) {
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: ReactJS | JavaScript | CSS | Redux | Chakra-UI</Heading>
                     <Box className={style.major_project_detailsDi_btnDiv}>
                         <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://github.com/Khalidshah12/anthropologie" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
-                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://anthropologie.vercel.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
+                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://myanthropology.netlify.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
                     </Box>
                 </Box>
             </div>
