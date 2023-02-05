@@ -24,7 +24,7 @@ const GitHub = ({ colorMode }) => {
         <GitHubCalendar
           style={{ margin: "auto", color: '#2b78a8' }}
           username="Khalidshah12"
-          year={new Date().getFullYear()}
+          // year={2022}
         />
       </Box>
       <Box display='flex' justifyContent='center' mt='40px' >
